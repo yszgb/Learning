@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  postgres:
+    image: postgres
+    container_name: learning_db
+    restart: always
+    environment:
+      POSTGRES_USER: learning
+      POSTGRES_PASSWORD: learningGoFly
+      POSTGRES_DB: go
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    ports:
+      - 10002:5432
+
+volumes:
+  postgres_data:
+    driver: local
