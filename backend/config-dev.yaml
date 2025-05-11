@@ -11,7 +11,7 @@ path:
   html: ../server-data/html
 
 database:
-  host: 10.250.129.111 # 改为自己的 IP地址
+  host: 10.250.40.159 # 改为自己的 IP地址
   port: 10002
   dbname: go
   user: learning

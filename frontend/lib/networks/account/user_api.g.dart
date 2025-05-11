@@ -10,7 +10,7 @@ part of 'user_api.dart';
 
 class _RemoteUserApi implements RemoteUserApi {
   _RemoteUserApi(this._dio, {this.baseUrl, this.errorLogger}) {
-    baseUrl ??= 'https://10.250.129.111:10005';
+    baseUrl ??= 'https://10.250.40.159:10005';
   }
 
   final Dio _dio;
